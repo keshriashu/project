@@ -1,0 +1,49 @@
+<html>
+<head><title>converter</title></head>
+<body>
+    <script>
+        function myfunction1()
+     { 
+        var num1=document.getElementById("tx1").value;
+        var num2=document.getElementById("tx2").value;
+         var x=parseInt(num1)
+         var y=parseInt(num2)
+        var sum=x+y;
+         alert("the sum is"+sum)
+     }
+        function myfunction2()
+     { 
+        var num1=document.getElementById("tx1").value;
+        var num2=document.getElementById("tx2").value;
+         var x=parseInt(num1)
+         var y=parseInt(num2)
+        var sub=x-y;
+         alert("the sub is"+sub)
+     }
+        function myfunction3()
+     { 
+        var num1=document.getElementById("tx1").value;
+        var num2=document.getElementById("tx2").value;
+         var x=parseInt(num1)
+         var y=parseInt(num2)
+        var mul=x*y;
+         alert("the mul is"+mul)
+     }
+        function myfunction4()
+     { 
+        var num1=document.getElementById("tx1").value;
+        var num2=document.getElementById("tx2").value;
+         var x=parseInt(num1)
+         var y=parseInt(num2)
+        var div=x/y;
+         alert("the div is"+div)
+     }
+   </script>
+    <input id="tx1" type="text" placeholder="enter first number">
+    <input id="tx2" type="text" placeholder="enter second number">
+    <input type="button" onclick="myfunction1()" value="sum">
+    <input type="button" onclick="myfunction2()" value="sub">
+    <input type="button" onclick="myfunction3()" value="mul">
+    <input type="button" onclick="myfunction4()" value="div">
+    </body>
+   </html>
